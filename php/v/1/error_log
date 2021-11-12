@@ -1,0 +1,174 @@
+[29-Oct-2021 09:41:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[29-Oct-2021 12:36:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[29-Oct-2021 12:36:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[29-Oct-2021 12:36:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[29-Oct-2021 12:37:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[29-Oct-2021 12:37:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[29-Oct-2021 12:38:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[29-Oct-2021 12:38:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[29-Oct-2021 12:38:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[29-Oct-2021 12:44:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[29-Oct-2021 12:46:49 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[29-Oct-2021 12:47:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[29-Oct-2021 13:26:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[29-Oct-2021 13:27:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[29-Oct-2021 13:39:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/v/1/alumnos.php(5): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
+[31-Oct-2021 16:55:27 America/Chicago] PHP Notice:  Undefined index: id_unidad in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 85
+[31-Oct-2021 16:56:19 America/Chicago] PHP Notice:  Undefined index: id_unidad in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 85
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined variable: row_unidades in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined variable: j in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined variable: row_unidades in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined variable: j in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined offset: 2 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:43:48 America/Chicago] PHP Notice:  Undefined offset: 2 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined variable: row_unidades in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined variable: j in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined variable: row_unidades in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined variable: j in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined offset: 2 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:44:12 America/Chicago] PHP Notice:  Undefined offset: 2 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined variable: row_unidades in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined variable: j in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined variable: row_unidades in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined variable: j in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined offset: 2 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:46:05 America/Chicago] PHP Notice:  Undefined offset: 2 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined variable: row_unidades in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined variable: j in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined variable: row_unidades in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined variable: j in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined offset: 2 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:18 America/Chicago] PHP Notice:  Undefined offset: 2 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined variable: row_unidades in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined variable: j in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined variable: row_unidades in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined variable: j in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined offset: 2 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 20:49:25 America/Chicago] PHP Notice:  Undefined offset: 2 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[04-Nov-2021 22:21:03 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/utnc/emprendimiento.utnc.website/php/v/1/curso.php on line 38
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined variable: row_unidades in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined variable: j in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined variable: row_unidades in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined variable: j in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined offset: 1 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined offset: 2 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54
+[05-Nov-2021 08:05:37 America/Chicago] PHP Notice:  Undefined offset: 2 in /home/utnc/emprendimiento.utnc.website/php/v/1/unidades.php on line 54

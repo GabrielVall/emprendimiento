@@ -1,0 +1,8 @@
+[01-Nov-2021 16:03:03 America/Chicago] PHP Notice:  Undefined index: id_usuario_curso in /home/utnc/emprendimiento.utnc.website/php/c/2/insertar_proyecto.php on line 44
+[01-Nov-2021 16:20:47 America/Chicago] PHP Notice:  Array to string conversion in /home/utnc/emprendimiento.utnc.website/php/c/2/insertar_proyecto.php on line 44
+[04-Nov-2021 12:24:50 America/Chicago] PHP Notice:  Undefined index: id_usuario_curso in /home/utnc/emprendimiento.utnc.website/php/c/2/insertar_examen.php on line 10
+[04-Nov-2021 12:24:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php:42
+Stack trace:
+#0 /home/utnc/emprendimiento.utnc.website/php/c/2/insertar_examen.php(10): SQLConexion->obtenerDatos('CALL sp_select_...')
+#1 {main}
+  thrown in /home/utnc/emprendimiento.utnc.website/php/m/SQLConexion.php on line 42
