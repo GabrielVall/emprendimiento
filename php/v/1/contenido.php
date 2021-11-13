@@ -28,7 +28,6 @@ if($_SESSION['id_usuario_curso'] && $_SESSION['privilegio'] == 1 && $_SESSION['e
         </span>
     </div>
 </div>
-<input type="text" value="holaa2222a">
 <?php }else if($_SESSION['id_usuario_curso'] && $_SESSION['privilegio'] == 1 && $_SESSION['estado'] == 1){
     include_once("../../m/SQLConexion.php");
     $sql = new SQLConexion();
@@ -57,7 +56,6 @@ if($_SESSION['id_usuario_curso'] && $_SESSION['privilegio'] == 1 && $_SESSION['e
             <div class="p-3 mr-4 text-orange-500 bg-orange-100 rounded-full dark:text-orange-100 dark:bg-green-500">
                 &nbsp;<i class="fas fa-book-medical"></i>&nbsp;
             </div>
-            <input type="text" value="holaaa">
             <div>
                 <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
                     Proyectos Registrados
