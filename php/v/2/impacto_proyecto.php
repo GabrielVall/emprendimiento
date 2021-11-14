@@ -1,23 +1,23 @@
 <label class="block text-sm mt-2">
     <span class="text-gray-700 dark:text-gray-400">Indique cuántos empleos conservará su empresa y cuántos generará a partir de la realización del proyecto.</span><br>
     <span class="text-xs text-green-600 dark:text-green-400">Empleos conservados para hombres.</span>
-    <input id="necesidades" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" type="number">
+    <input id="necesidades" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" type="number" min="1">
     </div>
     <span class="text-xs text-green-600 dark:text-green-400">Empleos conservados para mujeres.</span>
-    <input id="necesidades" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" type="number">
+    <input id="necesidades" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" type="number" min="1">
     </div>
     <span class="text-xs text-green-600 dark:text-green-400">Empleos generados para hombres.</span>
-    <input id="necesidades" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" type="number">
+    <input id="necesidades" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" type="number" min="1">
     </div>
     <span class="text-xs text-green-600 dark:text-green-400">Empleos generados para mujeres.</span>
-    <input id="necesidades" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" type="number">
+    <input id="necesidades" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" type="number" min="1">
     </div>
 </label>
 <label class="block mt-4 text-sm">
     <span class="text-gray-700 dark:text-gray-400">
     Sectores de mayor impacto (puedes seleccionar varias)
     </span>
-    <select id="sectores_impacto" class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-multiselect focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray" multiple="">
+    <select id="sectores_impacto" placeholder="Seleccione una opción" class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-multiselect focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray" multiple="">
     <option value="1">Aeronáutica</option>
     <option value="2">Agroindustria</option>
     <option value="3">Alimentos</option>
@@ -40,7 +40,7 @@
 </label>
 <label class="block text-sm mt-2">
     <span class="text-gray-700 dark:text-gray-400">Describa las principales consecuencias que la realización de su proyecto traería al medio ambiente. ¿Conoce la normatividad ambiental aplicable a su proyecto en el ámbito nacional e internacional?</span>
-    <input id="necesidades" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="¿Como se llama tu proyecto/empresa?">
+    <input id="necesidades" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="Consecuencias medioambientales">
 </label>
 <label class="block text-sm mt-2">
     <span class="text-gray-700 dark:text-gray-400">¿Esta empresa ha sido creada en una comunidad indigena?</span>

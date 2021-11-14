@@ -87,21 +87,31 @@
 }
 #generar_proyecto:hover{
   background-color: #ffffff1a !important;
+  backdrop-filter: blur(5px);
 }
 .ss-main .ss-multi-selected .ss-values {
   background-color: transparent !important;
+  backdrop-filter: blur(5px);
+
 }
 .ss-main .ss-multi-selected {
   background-color: transparent !important;
+  backdrop-filter: blur(5px);
+
 }
 .ss-content.ss-open {
   background: transparent !important;
+  backdrop-filter: blur(5px);
+
 }
 .ss-content .ss-search input {
   background: transparent !important;
+  backdrop-filter: blur(5px);
+
 }
 .ss-content .ss-list .ss-option.ss-disabled{
   background:#444444 !important;
+  backdrop-filter: blur(5px);
 }
 
 .lds-ring {

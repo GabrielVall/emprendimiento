@@ -1,6 +1,6 @@
 <label class="block text-sm mt-2">
     <span class="text-gray-700 dark:text-gray-400">¿Que necesidades del mercado satisface la empresa?</span>
-    <input id="necesidades" class=" block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="¿Como se llama tu proyecto/empresa?">
+    <input id="necesidades" class=" block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="¿En que contribuye tu empresa al mercado?">
 </label>
 
 <label class="block text-sm mt-2">
@@ -13,7 +13,7 @@
 
 <label class="block text-sm mt-2" style="display:none">
     <span class="text-gray-700 dark:text-gray-400">¿Cuales son las caracteristicas de sus clientes potenciales?</span>
-    <input id="necesidades_desc" class=" block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="¿Como se llama tu proyecto/empresa?">
+    <input id="necesidades_desc" class=" block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="Caracteristicas de tus clientes">
 </label>
 
 <label class="block text-sm mt-2">
@@ -37,7 +37,7 @@
 
 <label class="block text-sm mt-2" style="display:none">
     <span class="text-gray-700 dark:text-gray-400">Mencione dichos productos</span>
-    <input id="productos_similares" class=" block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="¿Como se llama tu proyecto/empresa?">
+    <input id="productos_similares" class=" block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="Productos similares">
 </label>
 
 <div class="text-right">
