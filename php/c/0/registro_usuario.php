@@ -20,6 +20,12 @@ $mail->CharSet = 'UTF-8';
 $codigo_activacion = $codigo;
 require '../../../mailer/activacion_mail.php';
 
+$mail->IsSMTP();
+$mail->Host       = 'smtp.gmail.com';
+$mail->SMTPSecure = 'tls';
+$mail->Port       = 587;
+$mail->SMTPDebug  = 0;
+$mail->SMTPAuth   = true;
 $mail->Username   = $correo;
 $mail->Password   = $password;
 
