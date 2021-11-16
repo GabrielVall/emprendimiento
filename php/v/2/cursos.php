@@ -97,10 +97,8 @@ function select_campo_img($ruta,$id){
 
 
    <div class="grid gap-6 mb-8 md:grid-cols-2">
-
-
-
     <?php 
+    
       foreach ($row_cursos as $key => $curso) {
          $class = '';
          $ico = '';
@@ -137,6 +135,11 @@ function select_campo_img($ruta,$id){
       
    </div>
 
+   <?php 
+      if($total_cursos < 1){
+         echo '<h2 class="text-center text-lg font-semibold text-gray-700 dark:text-gray-200">No hay cursos disponibles</h2>':
+      }
+   ?>
 
 
 </div>
