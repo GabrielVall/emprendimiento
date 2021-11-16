@@ -37,7 +37,7 @@ function select_campo_img($ruta,$id){
       <span>Filtrar →</span>
    </a>
    <!-- Responsive cards -->
-   <h4 class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+   <!-- <h4 class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
       Categorias
    </h4>
    <div class="grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4">
@@ -89,7 +89,7 @@ function select_campo_img($ruta,$id){
             </p>
          </div>
       </div>
-   </div>
+   </div> -->
    <!-- Cards with title -->
    <h4 class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
       Cursos
