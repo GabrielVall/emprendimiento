@@ -70,9 +70,9 @@ if($_SESSION['id_usuario_curso'] && $_SESSION['privilegio'] == 2 && $_SESSION['e
                     Cursos disponibles
                 </p>
                 <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
-                    <?php if(isset($row_usuario[0]['@total'])){
+                    <?php if( isset($row_usuario[0]['@total']) ){
                         echo $row_usuario[0]['@total'];    
-                    }else{ echo '0' }
+                    }else{ echo '0'; }
                         ?>
                 </p>
             </div>
