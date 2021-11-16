@@ -31,7 +31,7 @@ if($_SESSION['id_usuario_curso'] && $_SESSION['privilegio'] == 2 && $_SESSION['e
         include_once("../../m/SQLConexion.php");
         $sql = new SQLConexion();
         $row_usuario = $sql->obtenerDatos("CALL sp_select_info_usuario('".$_SESSION['id_usuario_curso']."')");
-        if(isset($row_usuario[0]['@completados']) && isset($row_usuario[0]['@total']) ){
+        if($row_usuario[0]['@completados'] > 0 && $row_usuario[0]['@total'] > 0 ){
             $porcentaje = round(($row_usuario[0]['@completados'] / $row_usuario[0]['@total']  ) * 100);
         }else{
             $porcentaje = '0';
