@@ -72,14 +72,7 @@ function Header()
     $this->Ln(20);
 }
 
-// Pie de página
-function Footer()
-{
-    // Posición: a 1,5 cm del final
-    $this->SetY(-20);
-    $this->SetX(25);
-   $this->Image('../recursos_pdf/footer.png');
-}
+
 }
 
 // Creación del objeto de la clase heredada
