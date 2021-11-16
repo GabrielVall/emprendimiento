@@ -137,7 +137,7 @@ function select_campo_img($ruta,$id){
 
    <?php 
       if($total_cursos < 1){
-         echo '<h2 class="text-center text-lg font-semibold text-gray-700 dark:text-gray-200">No hay cursos disponibles</h2>':
+         echo '<h2 class="text-center text-lg font-semibold text-gray-700 dark:text-gray-200">No hay cursos disponibles</h2>';
       }
    ?>
 
