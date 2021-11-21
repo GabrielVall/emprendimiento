@@ -156,3 +156,39 @@
 .underline:hover{
  cursor: pointer;
 }
+.sub_cont{
+  width:60%;
+}
+.imagen_ayuda{
+  width: 40%;
+}
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1050px) {  
+  .row{
+    display:block;
+  }
+  .row img{
+    margin:auto;
+  }
+  .imagen_ayuda{
+    width: 100%;
+  }
+  .sub_cont{
+    width: 100%;
+  }
+  .sub_cont h4{
+    text-align:center;
+  }
+  .m-auto{
+    margin: auto;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+}  

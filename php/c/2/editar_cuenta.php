@@ -11,7 +11,7 @@ $sql = new SQLConexion();
 // }else{
     $response_array['status'] = 'error';
     // $response_array['header'] = 'Error de conexión';
-    $response_array['header'] = 'Esta opción fue desactivada, comuinicate con el soporte para realizar cambios.';
+    $response_array['header'] = 'Esta opción fue desactivada, comunicate con el soporte para realizar cambios.';
     // $response_array['msg'] = 'Ha ocurrido un error, intenta más tarde...';
 // }
 
