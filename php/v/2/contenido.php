@@ -33,8 +33,10 @@ if($_SESSION['id_usuario_curso'] && $_SESSION['privilegio'] == 2 && $_SESSION['e
         include_once("../../m/SQLConexion.php");
         $sql = new SQLConexion();
         $row_usuario = $sql->obtenerDatos("CALL sp_select_info_usuario('".$_SESSION['id_usuario_curso']."')");
-        if($row_usuario[0]['@completados'] > 0 && $row_usuario[0]['@total'] > 0 ){
-            $porcentaje = round(($row_usuario[0]['@completados'] / $row_usuario[0]['@total']  ) * 100);
+        if($row_usuario){
+            if($row_usuario[0]['@completados'] > 0 && $row_usuario[0]['@total'] > 0 ){
+                $porcentaje = round(($row_usuario[0]['@completados'] / $row_usuario[0]['@total']  ) * 100);
+            }
         }else{
             $porcentaje = '0';
         }
@@ -51,7 +53,11 @@ if($_SESSION['id_usuario_curso'] && $_SESSION['privilegio'] == 2 && $_SESSION['e
         </div>
         <div class="sub_cont">
             <h4 class="mb-4 font-semibold text-gray-600 dark:text-gray-300">
-                Bienvenido, <?php echo $row_usuario[0]['nombre']; ?>
+                Bienvenido, <?php 
+                if($row_usuario){
+                    echo $row_usuario[0]['nombre']; 
+                }
+                ?>
             </h4>
             <p class="text-gray-600 dark:text-gray-400">
                 Te damos la bienvenida a <b>Academia</b>, para comenzar debes tener al menos un proyecto en nuestro sistema, para hacerlo selecciona el boton
