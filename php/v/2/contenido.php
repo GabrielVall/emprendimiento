@@ -95,7 +95,7 @@ if($_SESSION['id_usuario_curso'] && $_SESSION['privilegio'] == 2 && $_SESSION['e
                     Cursos completados
                 </p>
                 <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
-                    <?php echo if(isset($porcentaje){echo $porcentaje;}) ?>%
+                    <?php echo if( isset($porcentaje)) {echo $porcentaje;}) ?>%
                 </p>
             </div>
         </div>
