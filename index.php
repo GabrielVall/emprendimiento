@@ -67,7 +67,7 @@ function select_campo_img($ruta,$id){
                </div>
             </div>
          </div>
-         <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+         <header style="font-size: 1rem !important;" class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
             <div class="container">
                <div class="d-flex align-items-center">
                   <div class="site-logo">
@@ -94,8 +94,11 @@ function select_campo_img($ruta,$id){
                               <a href="#" class="nav-link text-left">Contacto</a>
                            </li>
                         </ul>
-                        </ul>
                      </nav>
+                  </div>
+                  <div class="site-logo">
+                     <img src="img/COECYT.png" alt="Image" class="img-fluid">
+                     </a>
                   </div>
                   <div class="ml-auto">
                      <div class="social-wrap">
@@ -231,9 +234,11 @@ function select_campo_img($ruta,$id){
          <div class="footer">
             <div class="container">
                <div class="row">
-                  <div class="col-lg-3">
+                  <div class="col-lg-6">
                      <p class="mb-4"><img src="images/logo.png" alt="Image" class="img-fluid"></p>
-                     <p>Esto es un texto de ejemplo.</p>
+                  </div>
+                  <div class="col-lg-6">
+                     <p class="mb-4"><img src="img/FONCYT.jpeg" alt="Image" class="img-fluid"></p>
                   </div>
                </div>
             </div>
