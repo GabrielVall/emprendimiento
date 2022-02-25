@@ -224,8 +224,8 @@ function select_campo_img($ruta,$id){
                      </h2>
                   </div>
                   <div class="col-lg-8">
-                     <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nesciunt quaerat ad reiciendis perferendis voluptate fugiat sunt fuga error totam.</p>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus assumenda omnis tempora ullam alias amet eveniet voluptas, incidunt quasi aut officiis porro ad, expedita saepe necessitatibus rem debitis architecto dolore? Nam omnis sapiente placeat blanditiis voluptas dignissimos, itaque fugit a laudantium adipisci dolorem enim ipsum cum molestias? Quod quae molestias modi fugiat quisquam. Eligendi recusandae officiis debitis quas beatae aliquam?</p>
+                     <p class="lead">Este Proyecto de Desarrollo de habilidades de trabajo genéricas de emprendimiento, mediante plataforma digital de incubación de negocios, fue realizado por alumnos, administrativos y Profesores de Tiempo Completo comprometidos con la formación extracurricular de los alumnos para formarlos integralmente, no solo con la formación académica, además de desarrollar en los alumnos competencias específicas para emprender su propia empresa, mientras cursan su carrera como Técnico Superior Universitarios en sus respectivos Programas Educativos en su universidad.</p>
+                     <p>Este Proyecto es el resultado de un año de planeación e investigación para presentar el Ante-Proyecto que permitió a nuestro equipo obtener un lugar entre los más de 100 proyectos presentados por otras instituciones de Educación de Nivel Superior en el Estado de Coahuila. Lo cual permitió obtener recursos para financiar nuestro proyecto de Investigación-Acción financiado por el COECYT en su convocatoria FONCYT; con el Proyecto: COAH-2020-C14-C050; con el propósito de fomentar la cultura y desarrollo del emprendimiento entre los jóvenes de nuestra comunidad universitaria.</p>
                   </div>
                </div>
             </div>
