@@ -143,11 +143,11 @@ $(document).ready(function() {
 
     function mostrar_resultado(aciertos,porcentaje,total){
         console.log(porcentaje);
-        if (porcentaje <= 50) { var icon = 'error'; var mensaje = 'Vuelve a repasar el curso y vuelve cuando estes listo...'; }
-        if (porcentaje > 50 && porcentaje < 80){ icon = 'error'; var mensaje = 'Ya casi lo tienes, estudia un poco más'; }
-        if (porcentaje >= 80){ icon = 'success'; var mensaje = 'Curso completado, podras obtener tu certificado en inicio > cursos completados'; }
+        if (porcentaje <= 50) { var icon = 'error'; var titulo = 'Haz fallado la prueba.'; var mensaje = 'Vuelve a repasar el curso y vuelve cuando estes listo...'; }
+        if (porcentaje > 50 && porcentaje < 80){ icon = 'error'; var titulo = 'Haz fallado la prueba.'; var mensaje = 'Ya casi lo tienes, estudia un poco más'; }
+        if (porcentaje >= 80){ icon = 'success'; var titulo = 'Haz aprobado la prueba.'; var mensaje = 'Curso completado, podras obtener tu certificado en inicio > cursos completados'; }
 
-        $('#contenedor_preguntas').html('<div class="justify-content-center d-flex text-center"><img style="max-width:200px;margin:auto; display:block;" src="../img/svg/'+icon+'.svg"><h3 class="mt-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">Haz fallado la prueba.</h3><h4 id="text_step" class="text-lg font-semibold text-gray-600 dark:text-gray-300">Porcentaje de aciertos: '+porcentaje+'%</h4><h4 id="text_step" class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">'+mensaje+'</h4><a href="javascript:history.back()" class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple">Volver al curso</a></div>');
+        $('#contenedor_preguntas').html('<div class="justify-content-center d-flex text-center"><img style="max-width:200px;margin:auto; display:block;" src="../img/svg/'+icon+'.svg"><h3 class="mt-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">'+titulo+'</h3><h4 id="text_step" class="text-lg font-semibold text-gray-600 dark:text-gray-300">Porcentaje de aciertos: '+porcentaje+'%</h4><h4 id="text_step" class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">'+mensaje+'</h4><a href="javascript:history.back()" class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple">Volver al curso</a></div>');
     }
     
     $(document).on("click","#focus_input_proyecto",function(){
