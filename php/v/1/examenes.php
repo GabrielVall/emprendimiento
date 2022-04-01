@@ -2,8 +2,15 @@
 session_start();
 include_once("../../m/SQLConexion.php");
 $sql = new SQLConexion();
-$row_examenes = $sql->obtenerDatos("CALL sp_select_examenes()");
+$iniciar = ($_POST['valor']-1)*5;
+$row_examenes = $sql->obtenerDatos("CALL sp_select_examenes('".$iniciar."')");
 $total_row_examenes = count($row_examenes);
+$row_examenes_totales = $sql->obtenerDatos("CALL sp_select_examenes_totales()");
+$total_row_examenes_totales = count($row_examenes_totales);
+$paginacion = $total_row_examenes_totales/5;
+$paginacion_atras = $_POST['valor']-1;
+$paginacion_adelante = $_POST['valor']+1;
+$paginacion_actual = $_POST['valor'];
 ?>
 <div class="container px-6 mx-auto grid">
     <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
@@ -81,6 +88,43 @@ $total_row_examenes = count($row_examenes);
                         <?php } ?>
                 </table>
             </div>
+            <div class="grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t dark:border-gray-700 bg-gray-50 sm:grid-cols-9 dark:text-gray-400 dark:bg-gray-800">
+                <span class="flex items-center col-span-3"></span>
+                <span class="col-span-2"></span>
+                <span class="flex col-span-4 mt-2 sm:mt-auto sm:justify-end">
+                <nav aria-label="Table navigation">
+                    <ul class="inline-flex items-center">
+                        <li>
+                            <a href="#examenes=<?php echo $paginacion_atras?>" class="<?php if($paginacion_actual<=1){echo 'disabled';}?> px-3 py-1 rounded-md rounded-l-lg focus:outline-none focus:shadow-outline-purple" aria-label="Previous">
+                            <svg aria-hidden="true" class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                                    <path d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" fill-rule="evenodd"></path>
+                            </svg>
+                            </a>
+                        </li>
+                        <?php for($i = 0; $i < ceil($paginacion); $i++){?>
+                        <li>
+                            <a href="#examenes=<?php echo $i+1?>" class="<?php if($paginacion_actual==$i+1){ echo 'text-white transition-colors duration-150 bg-purple-600 border border-r-0 border-purple-600';}?> px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple">
+                            <?php echo $i+1;?>
+                            </a>
+                        </li>
+                        <?php } ?>
+                        <li>
+                            <a href="#examenes=<?php echo $paginacion_adelante?>" class="<?php if($paginacion_actual>=ceil($paginacion)){echo 'disabled';}?> px-3 py-1 rounded-md rounded-r-lg focus:outline-none focus:shadow-outline-purple" aria-label="Next">
+                            <svg class="w-4 h-4 fill-current" aria-hidden="true" viewBox="0 0 20 20">
+                                    <path d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" fill-rule="evenodd"></path>
+                            </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                </span>
+            </div>
         </div>
     </div>
 </div>
+<style type="text/css">
+.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+</style>

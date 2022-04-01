@@ -11,37 +11,37 @@
         </ul>
         <ul>
             <li class="relative px-6 py-3 nav-item alumnos">
-                <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200" href="#alumnos">
+                <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200" href="#alumnos=1">
                     <i class="fas fa-users"></i>
                     <span class="ml-4">Alumnos</span>
                 </a>
             </li>
             <li class="relative px-6 py-3 nav-item proyectos">
-                <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200" href="#proyectos">
+                <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200" href="#proyectos=1">
                     <i class="fas fa-book-open"></i>
                     <span class="ml-4">Proyectos</span>
                 </a>
             </li>
             <li class="relative px-6 py-3 nav-item categorias">
-                <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200" href="#categorias">
+                <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200" href="#categorias=1">
                     <i class="fas fa-clipboard-list"></i>
                     <span class="ml-4">Categorías de cursos</span>
                 </a>
             </li>
             <li class="relative px-6 py-3 nav-item cursos">
-                <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200" href="#cursos">
+                <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200" href="#cursos=1">
                     <i class="fas fa-paste"></i>
                     <span class="ml-4">Cursos</span>
                 </a>
             </li>
             <li class="relative px-6 py-3 nav-item unidades">
-                <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200" href="#unidades">
+                <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200" href="#unidades=1">
                     <i class="fas fa-folder-open"></i>
                     <span class="ml-4">Unidades</span>
                 </a>
             </li>
             <li class="relative px-6 py-3 nav-item examenes">
-                <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200" href="#examenes">
+                <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200" href="#examenes=1">
                     <i class="far fa-file"></i>
                     <span class="ml-4">Examenes</span>
                 </a>
