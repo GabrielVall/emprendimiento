@@ -4,7 +4,7 @@ include_once("../../m/SQLConexion.php");
 $sql = new SQLConexion();
 $row_curso = $sql->obtenerDatos("CALL sp_select_curso('".$_POST['valor']."')");
 $total_row_curso = count($row_curso);
-$row_categorias_cursos = $sql->obtenerDatos("CALL sp_select_categorias_cursos()");
+$row_categorias_cursos = $sql->obtenerDatos("CALL sp_select_categorias_cursos_2()");
 $total_row_categorias_cursos = count($row_categorias_cursos);
 ?>
 <div class="container px-6 mx-auto grid">
