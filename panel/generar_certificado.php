@@ -22,13 +22,13 @@ $pdf->Image('../recursos_pdf/reco.jpg',0,0,300);
 
 
 $pdf->SetXY(160,94);
-$pdf->SetFont('Arial','B',27);
+$pdf->SetFont('Arial','B',22);
 $pdf->Cell(0, 0, utf8_decode($nombre), 0, 0, 'L');
 
 
 $pdf->Ln(20);
 $pdf->SetXY(160,134);
-$pdf->SetFont('Arial','B',22);
+$pdf->SetFont('Arial','B',18);
 $pdf->MultiCell(150,5,utf8_decode($nombre_curso));
 
 $pdf->Ln(20);
