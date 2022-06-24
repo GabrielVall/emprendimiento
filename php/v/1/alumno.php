@@ -64,7 +64,7 @@ input[type=number] { -moz-appearance:textfield; }
             </button>
         </div>
         <div style="float:right; margin-right: 5px !important;" class="flex">
-            <a href="#alumnos" data-id_usuario="<?php echo $_POST['valor']?>" class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple">
+            <a href="#alumnos=1" data-id_usuario="<?php echo $_POST['valor']?>" class="px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple">
                 Regresar
             </a>
         </div>

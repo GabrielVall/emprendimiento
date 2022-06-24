@@ -247,7 +247,7 @@ $(document).ready(function() {
                     alerta_generica(respuesta.status,respuesta.header,respuesta.msg);
                     uploadAjax2('documento_unidad',id_curso,respuesta.id_unidad);
                     setTimeout(() => {
-                        window.location.href = "#unidades";
+                        window.location.href = "#unidades=1";
                     }, 1500);
                 }
             });    
@@ -454,7 +454,7 @@ $(document).ready(function() {
                         alerta_generica(respuesta.status,respuesta.header,respuesta.msg);
                         uploadAjax('img_curso_act','cursos',id_curso,'jpg');
                         setTimeout(function(){
-                            window.location.href = "#cursos";
+                            window.location.href = "#cursos=1";
                         }, 1500);
                     }
                 });    
@@ -466,7 +466,7 @@ $(document).ready(function() {
                     success: function(respuesta){
                         alerta_generica(respuesta.status,respuesta.header,respuesta.msg);
                         setTimeout(function(){
-                            window.location.href = "#cursos";
+                            window.location.href = "#cursos=1";
                         }, 1500);
                     }
                 });   
@@ -637,7 +637,7 @@ $(document).ready(function() {
                 success: function(respuesta){
                     alerta_generica(respuesta.status,respuesta.header,respuesta.msg);
                     setTimeout(() => {
-                        window.location.href= "#alumnos";
+                        window.location.href= "#alumnos=1";
                     }, 1500);
                 }
             });
@@ -725,7 +725,7 @@ $(document).ready(function() {
             success: function(respuesta){
                 alerta_generica(respuesta.status,respuesta.header,respuesta.msg);
                 setTimeout(function(){
-                    window.location.href = "#examenes";
+                    window.location.href = "#examenes=1";
                 }, 1500);
             }
         });
